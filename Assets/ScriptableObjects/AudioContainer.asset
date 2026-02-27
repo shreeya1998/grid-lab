@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0684156d8ff404b76a5811b95f63501d, type: 3}
+  m_Name: AudioContainer
+  m_EditorClassIdentifier: 
+  audioDataList:
+  - clipName: CardFlip
+    audioClip: {fileID: 8300000, guid: 399cd5ea31e5e4565943bf0306daac01, type: 3}
+  - clipName: CardMatched
+    audioClip: {fileID: 8300000, guid: 2eb1c3fc5ce7a4678abba6bad9fc8eb3, type: 3}
+  - clipName: CardMismatch
+    audioClip: {fileID: 8300000, guid: 0d0063495f0854d5a810fd2c6af34db5, type: 3}
+  - clipName: GameEnd
+    audioClip: {fileID: 8300000, guid: c27fae110a97b41258f5a2785978064b, type: 3}
+  - clipName: BG
+    audioClip: {fileID: 8300000, guid: b177b6d04981742b9a41219cf07cc689, type: 3}
